@@ -1,0 +1,14 @@
+#cloud-config
+autoinstall:
+  version: 1
+  locale: ja_JP.UTF-8
+  keyboard:
+    layout: jp
+
+  identity:
+    hostname: ubuntu-server
+    username: user1
+    password: "$6$2i60Q2JAkkDgQRq9$J19G/08kYxSi8hSMdeIysMUeNhN2W4OLuYd8pRV04MaGMc9eOWnleTNjZIVhOKQFrHJjCQg8wlDKs7g.FPoix/"
+
+  ssh:
+    install-server: true
